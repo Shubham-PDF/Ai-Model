@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Explain the concept of a Deadlock. [OS Q81]",
+        "user_answer": "i dont know",
+        "score": 0.0
+    },
+    {
+        "question": "What is a binary search tree? [DSA Q92]",
+        "user_answer": "left right node , balancing ",
+        "score": 60.0
+    },
+    {
+        "question": "Explain the difference between Stack and Queue. [DSA Q26]",
+        "user_answer": "lifo , fifo",
+        "score": 50.0
+    },
+    {
+        "question": "What is the function of a router? [CN Q88]",
+        "user_answer": "route the packets",
+        "score": 0.0
+    },
+    {
+        "question": "Describe the role of an operating system. [OS Q18]",
+        "user_answer": "jdjjd",
+        "score": 0.0
+    }
+]

@@ -1,0 +1,369 @@
+{
+    "OS": [
+      {
+        "question": "What is a semaphore in an operating system?",
+        "ideal_answer": "Semaphore is a synchronization primitive used to control access to shared resources in concurrent processes.",
+        "keywords": ["semaphore", "synchronization", "shared resource", "concurrent", "access control"],
+        "marks": 5
+      },
+      {
+        "question": "Define deadlock and its conditions.",
+        "ideal_answer": "Deadlock is a situation where processes are unable to proceed. It requires mutual exclusion, hold and wait, no preemption, and circular wait.",
+        "keywords": ["deadlock", "mutual exclusion", "hold and wait", "no preemption", "circular wait"],
+        "marks": 5
+      },
+      {
+        "question": "What is the difference between process and thread?",
+        "ideal_answer": "A process is an independent program in execution while a thread is a lightweight sub-process that shares resources with other threads.",
+        "keywords": ["process", "thread", "execution", "resource sharing", "lightweight"],
+        "marks": 5
+      },
+      {
+        "question": "Explain the concept of virtual memory.",
+        "ideal_answer": "Virtual memory is a memory management technique that uses hardware and software to allow a computer to compensate for physical memory shortages by temporarily transferring data from RAM to disk storage.",
+        "keywords": ["virtual memory", "memory management", "RAM", "disk", "paging"],
+        "marks": 5
+      },
+      {
+        "question": "What is a system call?",
+        "ideal_answer": "A system call is a request made by a program to the operating system to perform tasks like file operations, process control, and communication.",
+        "keywords": ["system call", "operating system", "kernel", "interface", "process"],
+        "marks": 5
+      },
+      {
+        "question": "What is paging in OS?",
+        "ideal_answer": "Paging is a memory management scheme that eliminates the need for contiguous allocation of physical memory by dividing memory into fixed-size pages.",
+        "keywords": ["paging", "memory management", "page", "frame", "contiguous memory"],
+        "marks": 5
+      },
+      {
+        "question": "Describe the role of the scheduler in OS.",
+        "ideal_answer": "The scheduler manages process scheduling by deciding which process runs at a given time, improving CPU utilization and throughput.",
+        "keywords": ["scheduler", "process", "CPU", "scheduling", "throughput"],
+        "marks": 5
+      },
+      {
+        "question": "What is context switching?",
+        "ideal_answer": "Context switching is the process of saving the state of a process and loading the state of another, enabling multitasking.",
+        "keywords": ["context switching", "process", "state", "CPU", "multitasking"],
+        "marks": 5
+      },
+      {
+        "question": "What are the types of operating systems?",
+        "ideal_answer": "Types of operating systems include batch OS, time-sharing OS, distributed OS, network OS, and real-time OS.",
+        "keywords": ["types", "operating systems", "batch", "real-time", "distributed"],
+        "marks": 5
+      },
+      {
+        "question": "What is thrashing in OS?",
+        "ideal_answer": "Thrashing occurs when excessive paging operations reduce system performance, causing the CPU to spend more time swapping pages than executing processes.",
+        "keywords": ["thrashing", "paging", "performance", "swapping", "virtual memory"],
+        "marks": 5
+      },
+      {
+        "question": "Differentiate between preemptive and non-preemptive scheduling.",
+        "ideal_answer": "Preemptive scheduling allows the OS to interrupt a running process, whereas non-preemptive scheduling waits until the process completes.",
+        "keywords": ["preemptive", "non-preemptive", "scheduling", "process", "interruption"],
+        "marks": 5
+      },
+      {
+        "question": "What is a file system?",
+        "ideal_answer": "A file system organizes and stores files on storage devices, supporting operations like reading, writing, and access control.",
+        "keywords": ["file system", "storage", "file", "read", "write"],
+        "marks": 5
+      },
+      {
+        "question": "What are the different states of a process?",
+        "ideal_answer": "Process states include new, ready, running, waiting, and terminated.",
+        "keywords": ["process states", "ready", "running", "waiting", "terminated"],
+        "marks": 5
+      },
+      {
+        "question": "What is a critical section?",
+        "ideal_answer": "A critical section is a code segment where shared resources are accessed, requiring synchronization to avoid race conditions.",
+        "keywords": ["critical section", "race condition", "synchronization", "shared resource"],
+        "marks": 5
+      },
+      {
+        "question": "Explain the concept of inter-process communication.",
+        "ideal_answer": "Inter-process communication allows processes to communicate and synchronize their actions using techniques like message passing or shared memory.",
+        "keywords": ["inter-process communication", "IPC", "message passing", "shared memory"],
+        "marks": 5
+      },
+      {
+        "question": "What is demand paging?",
+        "ideal_answer": "Demand paging loads pages into memory only when they are required during execution, saving memory and improving efficiency.",
+        "keywords": ["demand paging", "memory", "page fault", "virtual memory"],
+        "marks": 5
+      },
+      {
+        "question": "What are the advantages of multithreading?",
+        "ideal_answer": "Multithreading increases CPU utilization, improves application performance, and enables concurrent execution.",
+        "keywords": ["multithreading", "CPU utilization", "concurrency", "performance"],
+        "marks": 5
+      },
+      {
+        "question": "What is swapping in OS?",
+        "ideal_answer": "Swapping is a memory management technique where processes are moved between main memory and disk to manage memory usage.",
+        "keywords": ["swapping", "memory", "disk", "process", "management"],
+        "marks": 5
+      },
+      {
+        "question": "Describe round-robin scheduling.",
+        "ideal_answer": "Round-robin scheduling assigns a fixed time slice to each process in a circular order, ensuring fairness and responsiveness.",
+        "keywords": ["round-robin", "scheduling", "time slice", "fairness", "CPU"],
+        "marks": 5
+      },
+      {
+        "question": "What is a zombie process?",
+        "ideal_answer": "A zombie process is a terminated process that still has an entry in the process table, usually waiting for its parent to read its exit status.",
+        "keywords": ["zombie process", "terminated", "process table", "exit status"],
+        "marks": 5
+      }
+    ],
+    "CN": [
+    {
+      "question": "What is the OSI model?",
+      "ideal_answer": "The OSI model is a conceptual framework that standardizes the functions of a network into seven layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application.",
+      "keywords": ["OSI model", "network", "layers", "standardization", "protocols"],
+      "marks": 5
+    },
+    {
+      "question": "What is the purpose of the TCP/IP model?",
+      "ideal_answer": "TCP/IP is a suite of communication protocols used to interconnect network devices on the internet and consists of four layers: Link, Internet, Transport, and Application.",
+      "keywords": ["TCP/IP", "protocols", "network", "internet", "layers"],
+      "marks": 5
+    },
+    {
+      "question": "Define IP address.",
+      "ideal_answer": "An IP address is a numerical label assigned to each device on a network, used for identifying and locating devices.",
+      "keywords": ["IP address", "network", "identification", "location", "device"],
+      "marks": 5
+    },
+    {
+      "question": "What is the difference between TCP and UDP?",
+      "ideal_answer": "TCP is connection-oriented and reliable, while UDP is connectionless and faster but less reliable.",
+      "keywords": ["TCP", "UDP", "connection", "reliable", "protocol"],
+      "marks": 5
+    },
+    {
+      "question": "What is DNS?",
+      "ideal_answer": "DNS stands for Domain Name System. It translates human-readable domain names into IP addresses.",
+      "keywords": ["DNS", "domain name", "IP address", "translation", "internet"],
+      "marks": 5
+    },
+    {
+      "question": "What is a MAC address?",
+      "ideal_answer": "A MAC address is a hardware identifier assigned to a network interface card for communication on the physical network.",
+      "keywords": ["MAC address", "hardware", "NIC", "network", "identifier"],
+      "marks": 5
+    },
+    {
+      "question": "What is the function of a router?",
+      "ideal_answer": "A router forwards data packets between different networks and manages traffic by directing data to its destination.",
+      "keywords": ["router", "packets", "network", "traffic", "destination"],
+      "marks": 5
+    },
+    {
+      "question": "What is ARP?",
+      "ideal_answer": "ARP (Address Resolution Protocol) is used to map an IP address to a MAC address in a local network.",
+      "keywords": ["ARP", "IP", "MAC", "mapping", "network"],
+      "marks": 5
+    },
+    {
+      "question": "Explain the concept of subnetting.",
+      "ideal_answer": "Subnetting divides a larger network into smaller sub-networks to improve routing efficiency and security.",
+      "keywords": ["subnetting", "network", "IP", "routing", "efficiency"],
+      "marks": 5
+    },
+    {
+      "question": "What is a firewall?",
+      "ideal_answer": "A firewall is a network security device that monitors and filters incoming and outgoing network traffic based on security rules.",
+      "keywords": ["firewall", "security", "traffic", "filter", "network"],
+      "marks": 5
+    },
+    {
+        "question": "What is bandwidth in networking?",
+        "ideal_answer": "Bandwidth is the maximum data transfer rate of a network or internet connection, measured in bits per second (bps).",
+        "keywords": ["bandwidth", "data transfer", "rate", "network", "bps"],
+        "marks": 5
+      },
+      {
+        "question": "What is latency in a network?",
+        "ideal_answer": "Latency refers to the delay before a transfer of data begins following an instruction. It is measured in milliseconds.",
+        "keywords": ["latency", "delay", "data transfer", "network", "milliseconds"],
+        "marks": 5
+      },
+      {
+        "question": "Differentiate between hub, switch, and router.",
+        "ideal_answer": "A hub broadcasts data to all devices, a switch forwards data to specific devices using MAC addresses, and a router routes data between different networks.",
+        "keywords": ["hub", "switch", "router", "broadcast", "MAC address"],
+        "marks": 5
+      },
+      {
+        "question": "What is HTTP and HTTPS?",
+        "ideal_answer": "HTTP is the protocol for transmitting web pages. HTTPS is the secure version using SSL/TLS for encryption.",
+        "keywords": ["HTTP", "HTTPS", "protocol", "encryption", "SSL", "TLS"],
+        "marks": 5
+      },
+      {
+        "question": "What is packet switching?",
+        "ideal_answer": "Packet switching is a method of data transmission where messages are broken into packets that are sent independently and reassembled at the destination.",
+        "keywords": ["packet switching", "data", "packets", "transmission", "network"],
+        "marks": 5
+      },
+      {
+        "question": "What is the role of the transport layer?",
+        "ideal_answer": "The transport layer ensures reliable data transmission between devices using protocols like TCP and UDP.",
+        "keywords": ["transport layer", "TCP", "UDP", "reliable", "data transfer"],
+        "marks": 5
+      },
+      {
+        "question": "What is a proxy server?",
+        "ideal_answer": "A proxy server acts as an intermediary between a user and the internet, used for security, filtering, and performance improvement.",
+        "keywords": ["proxy server", "intermediary", "security", "internet", "performance"],
+        "marks": 5
+      },
+      {
+        "question": "Explain the difference between static and dynamic IP addresses.",
+        "ideal_answer": "A static IP is manually assigned and doesn't change, while a dynamic IP is assigned by DHCP and can change over time.",
+        "keywords": ["static IP", "dynamic IP", "DHCP", "network", "addressing"],
+        "marks": 5
+      },
+      {
+        "question": "What is ICMP?",
+        "ideal_answer": "ICMP (Internet Control Message Protocol) is used for error reporting and diagnostics, like in the ping command.",
+        "keywords": ["ICMP", "ping", "error reporting", "diagnostics", "protocol"],
+        "marks": 5
+      },
+      {
+        "question": "What is a VPN?",
+        "ideal_answer": "A VPN (Virtual Private Network) creates a secure encrypted tunnel over a public network, ensuring private and secure communication.",
+        "keywords": ["VPN", "Virtual Private Network", "encryption", "security", "tunnel"],
+        "marks": 5
+      }
+    ],
+  
+    "DSA": [
+      {
+        "question": "What is a linked list?",
+        "ideal_answer": "A linked list is a linear data structure where each element points to the next, allowing dynamic memory allocation.",
+        "keywords": ["linked list", "nodes", "pointers", "linear", "memory"],
+        "marks": 5
+      },
+      {
+        "question": "Define stack and its operations.",
+        "ideal_answer": "A stack is a linear data structure that follows LIFO. Main operations are push, pop, peek, and isEmpty.",
+        "keywords": ["stack", "LIFO", "push", "pop", "peek"],
+        "marks": 5
+      },
+      {
+        "question": "What is a queue and how does it work?",
+        "ideal_answer": "A queue is a linear structure that follows FIFO. Elements are added at the rear and removed from the front.",
+        "keywords": ["queue", "FIFO", "enqueue", "dequeue", "linear structure"],
+        "marks": 5
+      },
+      {
+        "question": "What is the time complexity of binary search?",
+        "ideal_answer": "The time complexity of binary search is O(log n) for searching in a sorted array.",
+        "keywords": ["binary search", "time complexity", "log n", "sorted array"],
+        "marks": 5
+      },
+      {
+        "question": "Explain the difference between array and linked list.",
+        "ideal_answer": "An array has fixed size and allows random access, while a linked list has dynamic size and allows efficient insertions/deletions.",
+        "keywords": ["array", "linked list", "memory", "dynamic", "random access"],
+        "marks": 5
+      },
+      {
+        "question": "What is recursion?",
+        "ideal_answer": "Recursion is a technique where a function calls itself to solve a problem by breaking it into subproblems.",
+        "keywords": ["recursion", "function", "call", "subproblem", "base case"],
+        "marks": 5
+      },
+      {
+        "question": "What is a binary tree?",
+        "ideal_answer": "A binary tree is a tree data structure where each node has at most two children, called left and right.",
+        "keywords": ["binary tree", "node", "left", "right", "tree"],
+        "marks": 5
+      },
+      {
+        "question": "What is the difference between BFS and DFS?",
+        "ideal_answer": "BFS explores nodes level by level using a queue, while DFS explores depth-first using a stack or recursion.",
+        "keywords": ["BFS", "DFS", "queue", "stack", "traversal"],
+        "marks": 5
+      },
+      {
+        "question": "Explain Big-O notation.",
+        "ideal_answer": "Big-O notation describes the upper bound of time or space complexity, representing the worst-case performance.",
+        "keywords": ["Big-O", "complexity", "upper bound", "performance", "worst case"],
+        "marks": 5
+      },
+      {
+        "question": "What is a hash table?",
+        "ideal_answer": "A hash table stores key-value pairs using a hash function to compute an index, allowing fast lookup.",
+        "keywords": ["hash table", "hash function", "key-value", "index", "lookup"],
+        "marks": 5
+      },
+      {
+        "question": "Define a graph and its types.",
+        "ideal_answer": "A graph is a collection of nodes and edges. It can be directed or undirected, weighted or unweighted.",
+        "keywords": ["graph", "nodes", "edges", "directed", "undirected"],
+        "marks": 5
+      },
+      {
+        "question": "What is a heap data structure?",
+        "ideal_answer": "A heap is a complete binary tree where each node is either greater (max-heap) or smaller (min-heap) than its children.",
+        "keywords": ["heap", "binary tree", "max-heap", "min-heap", "priority queue"],
+        "marks": 5
+      },
+      {
+        "question": "What is the time complexity of quicksort?",
+        "ideal_answer": "The average time complexity of quicksort is O(n log n), but the worst-case is O(n^2).",
+        "keywords": ["quicksort", "complexity", "average", "worst-case", "n log n"],
+        "marks": 5
+      },
+      {
+        "question": "What is a trie?",
+        "ideal_answer": "A trie is a tree-like data structure used to store strings efficiently for prefix-based search.",
+        "keywords": ["trie", "prefix", "search", "tree", "strings"],
+        "marks": 5
+      },
+      {
+        "question": "What is dynamic programming?",
+        "ideal_answer": "Dynamic programming solves problems by breaking them into overlapping subproblems and storing their results to avoid recomputation.",
+        "keywords": ["dynamic programming", "subproblems", "memoization", "optimization"],
+        "marks": 5
+      },
+      {
+        "question": "What is the difference between linear and binary search?",
+        "ideal_answer": "Linear search checks each element one by one, while binary search divides the search space and requires a sorted array.",
+        "keywords": ["linear search", "binary search", "comparison", "sorted", "efficiency"],
+        "marks": 5
+      },
+      {
+        "question": "What is a circular linked list?",
+        "ideal_answer": "A circular linked list is a linked list where the last node points to the first node, forming a circle.",
+        "keywords": ["circular linked list", "node", "pointer", "first", "last"],
+        "marks": 5
+      },
+      {
+        "question": "What is the purpose of a priority queue?",
+        "ideal_answer": "A priority queue is a data structure where each element has a priority, and the element with the highest priority is served first.",
+        "keywords": ["priority queue", "priority", "heap", "dequeue", "order"],
+        "marks": 5
+      },
+      {
+        "question": "Explain merge sort and its complexity.",
+        "ideal_answer": "Merge sort is a divide-and-conquer algorithm that divides the array and merges sorted subarrays. Its time complexity is O(n log n).",
+        "keywords": ["merge sort", "divide-and-conquer", "merge", "complexity", "n log n"],
+        "marks": 5
+      },
+      {
+        "question": "What is a DAG?",
+        "ideal_answer": "A DAG (Directed Acyclic Graph) is a graph with directed edges and no cycles, often used in scheduling and dependency resolution.",
+        "keywords": ["DAG", "graph", "directed", "acyclic", "dependencies"],
+        "marks": 5
+      }
+    ]
+  }

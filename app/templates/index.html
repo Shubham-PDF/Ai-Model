@@ -1,0 +1,38 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Quiz Evaluator</title>
+</head>
+<body>
+    <h2>Select Domain</h2>
+    <form method="POST">
+        <select name="domain">
+            <option value="OS">Operating System</option>
+            <option value="DBMS">Database</option>
+        </select>
+        <input type="submit" name="choose_domain" value="Start Quiz">
+    </form>
+
+    {% if question %}
+    <hr>
+    <h3>Question from {{ selected_domain }}:</h3>
+    <p>{{ question }}</p>
+    <form method="POST">
+        <textarea name="answer" rows="5" cols="60" placeholder="Type your answer here..."></textarea>
+        <input type="hidden" name="domain" value="{{ selected_domain }}">
+        <input type="hidden" name="q_index" value="{{ q_index }}">
+        <br><br>
+        <input type="submit" name="submit_answer" value="Submit Answer">
+    </form>
+    {% endif %}
+
+    {% if result %}
+        <h3>Evaluation Result</h3>
+        <p><strong>Score:</strong> {{ result.score }} / {{ result.max_marks }}</p>
+        <p><strong>Matched Keywords:</strong> {{ result.matched_keywords }}</p>
+        <p><strong>All Keywords:</strong> {{ result.total_keywords }}</p>
+        <p><strong>Feedback:</strong> {{ result.feedback }}</p>
+    {% endif %}
+</body>
+</html>

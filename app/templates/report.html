@@ -1,0 +1,11 @@
+<h2>Quiz Report ({{ domain }})</h2>
+<p><strong>Total Score:</strong> {{ score }} / {{ max_score }}</p>
+
+{% for item in results %}
+    <hr>
+    <p><strong>Q:</strong> {{ item.question }}</p>
+    <p><strong>Your Answer:</strong> {{ item.user_answer }}</p>
+    <p><strong>Score:</strong> {{ item.result.score }} / {{ item.result.max_marks }}</p>
+    <p><strong>Matched Keywords:</strong> {{ item.result.matched_keywords }}</p>
+    <p><strong>Feedback:</strong> {{ item.result.feedback }}</p>
+{% endfor %}
